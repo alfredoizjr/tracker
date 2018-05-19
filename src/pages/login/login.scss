@@ -1,0 +1,49 @@
+page-login {
+    
+    .toolbar-background {
+        background: #fff;
+        border-color: transparent;
+    }
+    .slide-zoom {
+        height: 100%;
+    }
+    .slide-title {
+        margin-top: 2.8rem;
+        color: #fff;
+    }
+    .slide-image {
+        max-height: 50%;
+        max-width: 60%;
+        margin: 18px 0;
+    }
+    b {
+        font-weight: 500;
+    }
+    p {
+        padding: 0 40px;
+        font-size: 14px;
+        line-height: 1.5;
+        color: #fff;
+        b {
+            color: #000000;
+        }
+    }
+
+    .scroll-content {
+        
+        background: rgba(169,3,41,1);
+background: -moz-linear-gradient(left, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(169,3,41,1)), color-stop(44%, rgba(143,2,34,1)), color-stop(100%, rgba(109,0,25,1)));
+background: -webkit-linear-gradient(left, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%);
+background: -o-linear-gradient(left, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%);
+background: -ms-linear-gradient(left, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%);
+background: linear-gradient(to right, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019', GradientType=1 );
+    }
+
+     .toolbar-background {
+        background: transparent;
+        border-color: transparent;
+    }
+
+}

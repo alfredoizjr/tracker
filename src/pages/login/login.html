@@ -1,0 +1,40 @@
+<ion-content padding>
+
+  <ion-slides pager>
+
+      <ion-slide>
+
+          <ion-toolbar>
+          </ion-toolbar>
+
+          <h2 class="slide-title"><i class="fas fa-taxi fa-7x"></i></h2>
+          <h2 class="slide-title">Insert your code</h2>
+          <p>You must insert you user code</p>
+
+          <button ion-button block color="light" (click)="showInput()">
+            sing in
+          </button>
+
+      </ion-slide>
+
+
+      <!-- Ultimo Slide -->
+      <ion-slide>
+          <ion-toolbar>
+          </ion-toolbar>
+
+          <h2 class="slide-title"><i class="far fa-check-square fa-7x"></i></h2>
+          <h2 class="slide-title">¿ready to start?</h2>
+
+          <button ion-button large clear icon-right color="light" (click)="singIn()">
+        Next
+        <ion-icon name="arrow-forward"></ion-icon>
+      </button>
+
+      </ion-slide>
+      <!-- Fin del último slide -->
+
+  </ion-slides>
+
+
+</ion-content>
