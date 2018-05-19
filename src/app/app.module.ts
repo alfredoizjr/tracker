@@ -15,6 +15,7 @@ import { UbicationProvider } from '../providers/ubication/ubication';
 //plugin
 import { Geolocation } from '@ionic-native/geolocation';
 import { AgmCoreModule } from '@agm/core';
+import { BackgroundMode } from '@ionic-native/background-mode';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { AgmCoreModule } from '@agm/core';
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     UserProvider,
     UbicationProvider,
-    Geolocation
+    Geolocation,
+    BackgroundMode
   ]
 })
 export class AppModule {}

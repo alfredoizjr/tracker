@@ -1,6 +1,6 @@
 {
   "name": "tracker",
-  "app_id": "",
+  "app_id": "f7946691",
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}

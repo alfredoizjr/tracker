@@ -3,6 +3,7 @@ import { UbicationProvider } from './../../providers/ubication/ubication';
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { LoginPage } from '../login/login';
+import { BackgroundMode } from '@ionic-native/background-mode';
 
 @Component({
   selector: 'page-home',
@@ -14,11 +15,12 @@ export class HomePage {
   userData: any = {};
   constructor(public navCtrl: NavController,
              public _ubicationProvider:UbicationProvider,
-            public _userProvider: UserProvider) {
+            public _userProvider: UserProvider,
+            private backgroundMode: BackgroundMode) {
 
               _ubicationProvider.initDriver();
               _ubicationProvider.initGeolocalisation();
-              
+              this.backgroundMode.enable();
               _ubicationProvider.driver.valueChanges().subscribe((data) => {
                   if(!data) return;
                   this.userData = data;

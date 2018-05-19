@@ -86,6 +86,7 @@
         <variable name="GEOLOCATION_USAGE_DESCRIPTION" value="To locate you" />
     </plugin>
     <edit-config file="*-Info.plist" mode="merge" target="NSLocationWhenInUseUsageDescription">
-      <string>We want your location!</string>
-   </edit-config>
+        <string>We want your location!</string>
+    </edit-config>
+    <plugin name="cordova-plugin-background-mode" spec="^0.7.2" />
 </widget>
