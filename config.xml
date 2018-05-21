@@ -89,4 +89,5 @@
         <string>We want your location!</string>
     </edit-config>
     <plugin name="cordova-plugin-background-mode" spec="^0.7.2" />
+    <engine name="android" spec="7.0.0" />
 </widget>
